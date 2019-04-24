@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+#main {
+  background-color: #f67280;
+  text-align: center;
+}
+
+/* Title section */
+
+#title {
+  background-color: #c06c84;
+  padding: 0.1%;
+}
+
+.title {
+  color: #35477d;
+  font-family: Dancing Script;
+  font-size: 4em;
+}
+
+.subtitle {
+  color: #35477d;
+  font-family: Quicksand;
+  font-size: 1.7em;
+  padding-bottom: 2%;
+}
+
+/* End of title section */
+
+
+/* Image section */
+#img-div {
+  padding: 2% 0 0 0;
+}
+
+img {
+  border-radius: 50%;
+/*   centers image within parent element */
+  margin: 0 auto;
+  /*   make image responsive */
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+#img-caption {
+  color: #35477d;
+  font-family: Quicksand;
+  font-size: 1.5em;
+}
+
+/* End of image section */
+
+/* Quote sections */
+
+#quote1, #quote2, #quote3 {
+  background-color: #c06c84;
+  padding: 2% 30%;
+  border-radius: 50%;
+}
+
+.quote {
+  color: #fdfff0;
+  font-family: Lora;
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+.author {
+  color: #fdfff0;
+  font-family: Dancing Script;
+  font-size: 1.4em;
+  text-align: right;
+  padding-right: 0.4em;
+}
+
+/* End of quote section */
+
+/* Tribute info */
+
+h2 {
+  font-family: Lora;
+}
+
+#tribute-info {
+  padding: 2% 10%;
+}
+
+.about, .first-program {
+    color: #35477d;
+    padding: 1% 10%;
+    font-family: Quicksand;
+    font-size: 1.4em;
+}
+
+/* End of tribute info section */
+
+#more-info {
+  color: #35477d;
+  font-size: 1.4em;
+  font-family: Quicksand;
+}
+
+footer {
+  background-color: #c06c84;
+  color: #f9f8eb;
+  font-family: 'Pontano Sans', sans-serif;
+  line-height: 1.5;
+  padding: 1%;
+}
